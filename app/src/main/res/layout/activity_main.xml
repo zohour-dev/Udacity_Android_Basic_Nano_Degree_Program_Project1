@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFDE7"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="16dp"
+        android:layout_weight="2"
+        android:scaleType="centerCrop"
+        android:src="@drawable/aysel" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:gravity="center"
+        android:text="@string/CafeName"
+        android:textColor="#4CAF50"
+        android:textAllCaps="true"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="16dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/Description"
+        android:textColor="#4CAF50"
+        android:textStyle="bold"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        style="@style/HorizontalLinearLayoutStyle"
+        android:layout_marginBottom="8dp">
+
+        <ImageView
+            style="@style/ImageStyle"
+            android:src="@drawable/ic_location" />
+
+        <TextView
+            style="@style/TextStyle"
+            android:text="@string/CafeLocation" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/HorizontalLinearLayoutStyle"
+        android:layout_marginBottom="8dp">
+
+        <ImageView
+            style="@style/ImageStyle"
+            android:src="@drawable/ic_access_time" />
+
+        <TextView
+            style="@style/TextStyle"
+            android:text="@string/CafeAccessTime" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/HorizontalLinearLayoutStyle">
+
+        <ImageView
+            style="@style/ImageStyle"
+            android:src="@drawable/ic_phone" />
+
+        <TextView
+            style="@style/TextStyle"
+            android:text="@string/CafePhoneNumber" />
+    </LinearLayout>
+
+
+</LinearLayout>

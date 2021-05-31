@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Aysel Cafe and Restaurant</string>
+    <string name="CafeName">Aysel Cafe and Restaurant</string>
+    <string name="Description">A cafe and Restaurant based in Amman,it serves the most delicious variety of foods carefully chosen for you by the most skilled hands in the world</string>
+    <string name="CafeLocation">Amman - Sports City Towards Al-Mashaghel roundabout - Above Union Bank</string>
+    <string name="CafeAccessTime">12 PM - 12 AM</string>
+    <string name="CafePhoneNumber">0786300070</string>
+</resources>
