@@ -4,4 +4,4 @@ The Purpose of the project is to design and implement a single screen app that d
 such as the business name, a photo that represents it, contact information, address, hours of operation and a description of it.
 
 
-![Screenshot_20211211-155210_Aysel Cafe and Restaurant](https://user-images.githubusercontent.com/78722177/145679287-16f4eee5-22a0-401e-a242-69b657ed2790.jpg)
+![AyselCafe](https://user-images.githubusercontent.com/78722177/145679477-4465f586-69bb-421d-b625-dc18e39f4726.png)
